@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link href="static/styles.css" rel="stylesheet" type="text/css" />
+  <title>GPT Test</title>
+</head>
+<body><align="center">Use this When Chat GPT is Down :)</align>
+    <form id="chat-form">
+  <input type="text" id="user-input" autocomplete="off" placeholder="Enter your message...">
+  <button id ="send-button" type="submit">Send</button>
+</form>
+Note: The session will be deleted once you close this tab.
+<section id="chat-window" ></section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="static/chat.js"></script>
+  </body>
+</html>
